@@ -1,0 +1,319 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+body {
+	/*background-color: #d5d5d5;*/
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+.showcase {
+	border-bottom: 1px solid #c9c9c9;
+	background-image: url(../img/watches.jpg);
+	background-repeat: no-repeat;
+	background-position: 132% 100%;
+	background-size: 680px;
+}
+
+.visually-hidden {
+	border: 0;
+  	clip: rect(0 0 0 0);
+  	height: 1px;
+  	margin: -1px;
+  	overflow: hidden;
+  	padding: 0;
+  	position: absolute;
+  	width: 1px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0px auto;
+	/*background-color: #fff;*/
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+}
+
+.nav-item {
+	padding-right: 40px;
+}
+
+.nav-link {
+	color: #a3a3a3;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #fff;
+	transition: .3s;
+}
+
+.nav-link:hover {
+	color: #333;
+	border-bottom: 2px solid #333;
+}
+
+.nav-input {
+	border: none;
+	outline: none;
+	font-size: 16px;
+	border-bottom: 2px solid #999;
+	padding: 5px 10px 5px 0px;
+	width: 170px;
+}
+
+.showcase-main-title {
+	color: #333;
+	font-size: 45px;
+	padding-top: 160px;
+	font-weight: 700;
+}
+
+.showcase-main-text {
+	color: #a3a3a3;
+	margin-top: 60px;
+	padding: 7px 700px 7px 30px;
+	line-height: 22px;
+	border-left: 3px solid #999;
+}
+   
+.showcase .watch-link {
+	display: inline-block;
+	margin: 50px 0px 200px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	background-color: #eb615b;
+	font-size: 14px;
+	font-weight: 700;
+	transition: .3s;
+}
+
+.showcase .watch-link:hover {
+	background-color: #e3443d;
+}
+
+/*Info Section*/
+
+.info-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-item {
+	width: 28%;
+}
+
+.info-title {
+	color: #333;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 40px;
+}
+
+.info-text {
+	color: #555;
+	line-height: 22px;
+	padding-top: 50px;
+}
+
+.dot-list {
+	display: flex;
+}
+
+.dot-item {
+	width: 5px;
+	height: 5px;
+	background-color: #a9a9a9;
+	margin-right: 10px;
+	border-radius: 50%;
+	margin-top: 17px;
+}
+.info-learn-more {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+
+}
+
+/*.info-learn-more:hover {
+	transform: translateX(20px);
+}*/
+
+.info-learn-more:hover .info-hr {
+	width: 65px;
+}
+
+.info-hr {
+	width: 40px;
+	height: 2.5px;
+	margin-right: 15px;
+	background-color: #eb615b;
+	border: none;
+	transition: 0.3s; 
+}
+
+.info-link {
+	display: inline-block;
+	color: #eb615b;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+/*Info-Content-Section*/
+
+.info-section-content-list {
+	padding: 100px 0px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-content-item {
+	width: 45%;
+}
+
+.info-content-title {
+	color: #333;
+	font-size: 45px;
+	padding-top: 120px;
+	padding-right: 120px;
+	font-weight: 700;
+}
+
+.info-content-text {
+	color: #a3a3a3;
+	margin-top: 60px;
+	line-height: 22px;
+	border-left: 3px solid #999;
+	padding: 7px 120px 7px 30px;
+}
+
+.buy-now-link {
+	display: inline-block;
+	margin: 50px 0px 200px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	background-color: #eb615b;
+	font-size: 14px;
+	font-weight: 700;
+	transition: .3s;
+}
+
+.buy-now-link:hover {
+	background-color: #e3443d;
+}
+
+.info-img-item {
+	width: 45%;
+}
+
+.info-content-img {
+	width: 100%;
+	height: 700px;
+}
+
+/*Footer Section*/
+
+.footer {
+	background-image: linear-gradient(to right bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+					  url(../img/runners.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -60% 50%;
+}
+
+.footer .container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-content {
+	width: 50%;
+}
+
+.footer-content-title {
+	color: #fff;
+	font-size: 45px;
+	padding-top: 180px;
+	padding-right: 100px;
+	font-weight: 700;
+}
+
+.footer-content-text {
+	color: #fff;
+	margin-top: 60px;
+	padding: 7px 100px 7px 30px;
+	line-height: 22px;
+	border-left: 3px solid #fff;
+}
+
+.footer-explore-link {
+	display: inline-block;
+	margin: 50px 0px 180px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	background-color: #eb615b;
+	font-size: 14px;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.footer-explore-link:hover {
+	background-color: #e3443d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
